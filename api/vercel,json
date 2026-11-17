@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/tg", "destination": "/api/tg.js" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "functions": {
+    "api/tg.js": { "maxDuration": 10 }
+  }
+}
